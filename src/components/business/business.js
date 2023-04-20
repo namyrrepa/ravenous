@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Business.module.css';
 
+import GenericEatsImage from './GenericEats.png'
+
 const business = {
-    imageSrc: './GenericEats.png',
+    imageSrc: GenericEatsImage,
     name: 'Generic Eats',
     address: '123 May Dup Place',
     city: 'Hopeulikit',

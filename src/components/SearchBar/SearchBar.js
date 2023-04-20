@@ -20,12 +20,12 @@ function SearchBar() {
             <div className={styles.SortOptions}>
                 <ul>{renderSortByOptions()}</ul>
             </div>
-            <div className={InputFields}>
+            <div className={styles.InputFields}>
                 <input placeholder='Search Businesses'/>
                 <input placeholder='Location' />                
             </div>
-            <div className={SubmitSearch}>
-                <a>Search</a>
+            <div className={styles.SubmitSearch}>
+                <button>Search</button>
             </div>
         </div>
     );

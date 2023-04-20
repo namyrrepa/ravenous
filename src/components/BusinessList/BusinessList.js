@@ -11,6 +11,9 @@ function BusinessList() {
             <Business />
             <Business />
             <Business />
+            <Business />
+            <Business />
+            <Business />
         </div>
     );
 };
