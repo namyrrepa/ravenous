@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './business.module.css';
 
 const business = {
     imageSrc: 'genericEats.png',
@@ -14,19 +15,22 @@ const business = {
 
 const Business = () => {
     return (
-    <div>
-        <div>
-            <img src={business.imageSrc} alt={business.name} />
+    <div className={styles.Business}>
+        <div className={styles.imageBox}>
+            <img src={business.imageSrc} alt={business.name}/>
         </div>
-        <h2>{business.name}</h2>
-        <div>
-            <p>{business.address}</p>
-            <p>{`${business.city}, ${business.state} ${business.zipcode}`}</p>
-        </div>
-        <div>
-            <h3>{business.category}</h3>
-            <h3>{business.rating}</h3>
-            <p>{business.ratingCount}</p>
+        <h1>{business.name}</h1>
+        <div className={styles.BusinessInfo}>
+            <div className={styles.BusinessAddress}>
+                <p>{business.address}</p>
+                <p>{business.city}</p>
+                <p>{`${business.state} ${business.zipcode}`}</p>
+            </div>
+            <div className={styles.BusinessRatings}>
+                <h2>{business.category.toUpperCase()}</h2>
+                <h3>{business.rating}</h3>
+                <p>{business.ratingCount}</p>
+            </div>
         </div>
     </div>
     );
