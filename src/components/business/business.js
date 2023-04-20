@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './business.module.css';
+import styles from './Business.module.css';
 
 const business = {
-    imageSrc: 'genericEats.png',
+    imageSrc: './GenericEats.png',
     name: 'Generic Eats',
     address: '123 May Dup Place',
     city: 'Hopeulikit',
@@ -13,7 +13,7 @@ const business = {
     ratingCount: 100,
 };
 
-const Business = () => {
+function Business() {
     return (
     <div className={styles.Business}>
         <div className={styles.imageBox}>

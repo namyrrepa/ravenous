@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './businessList.module.css';
+import styles from './BusinessList.module.css';
 
-import Business from '../business/business.js';
+import Business from '../Business/Business.js';
 
-const BusinessList = () => {
+function BusinessList() {
     return (
         <div className={styles.BusinessList}>
             <Business />

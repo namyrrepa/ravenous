@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './searchBar.module.css';
+import styles from './SearchBar.module.css';
 
 const sortByOptions = {
     'Best Match': 'best_match',
@@ -7,8 +7,8 @@ const sortByOptions = {
     'Most Reviewed': 'review_count',
 };
 
-const SearchBar = () => {
-    const renderSortByOptions = () => {
+function SearchBar() {
+    function renderSortByOptions() {
         return Object.keys(sortByOptions).map(sortOption => {
             let optionChosen = sortByOptions[sortOption];
             return <li key={optionChosen}>{sortOption}</li>;
