@@ -1,19 +1,45 @@
 import React from 'react';
 import styles from './Business.module.css';
 
-import GenericEatsImage from './GenericEats.png'
+import GenericEatsImage from './GenericEats.png';
+import BigBurgerImage from './BigBurger.jpg';
+import TheNoodleBarImage from './TheNoodleBar.png';
 
-const business = {
-    imageSrc: GenericEatsImage,
-    name: 'Generic Eats',
-    address: '123 May Dup Place',
-    city: 'Hopeulikit',
-    state: 'Georgia',
-    zipcode: '56266',
-    category: 'American',
-    rating: 4.0,
-    ratingCount: 100,
-};
+const business = [
+    {
+        imageSrc: GenericEatsImage,
+        name: 'Generic Eats',
+        address: '123 May Dup Place',
+        city: 'Hopeulikit',
+        state: 'Georgia',
+        zipcode: '56266',
+        category: 'American',
+        rating: 4.0,
+        ratingCount: 100,
+    },
+    {
+        imageSrc: BigBurgerImage,
+        name: 'Big Burger',
+        address: '500 Calorie Drive',
+        city: 'Dallas',
+        state: 'Texas',
+        zipcode: '28784',
+        category: 'American',
+        rating: 4.2,
+        ratingCount: 150,
+    },
+    {
+        imageSrc: TheNoodleBarImage,
+        name: 'The Noodle Bar',
+        address: '35 Wok Way',
+        city: 'New York',
+        state: 'New York',
+        zipcode: '96933',
+        category: 'Chinese',
+        rating: 4.8,
+        ratingCount: 225,
+    }
+];
 
 function Business() {
     return (
