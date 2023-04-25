@@ -3,15 +3,17 @@ import styles from './BusinessList.module.css';
 
 import Business from '../Business/Business.js';
 
-function BusinessList() {
+function BusinessList({businesses}) {
     return (
         <div className={styles.BusinessList}>
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
+            {businesses.map((business) => {
+                return (
+                    <div className={styles.BusinessList}>
+                        <Business business={business} key={business.name} />
+                    </div>
+                    )
+                })
+            }
         </div>
     );
 };
