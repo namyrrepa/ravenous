@@ -21,10 +21,14 @@
 
 4) Future Work (Parts of Project):
 
-    I:      Lay the foundations of Ravenous by building the wesite's homepage. Part I will finish with a static interface featuring a header, a search bar, and a list of businesses (for the time being, a recurring list of one harcoded business).
+    I - (started 04/20/2023)
+        Lay the foundations of Ravenous by building the wesite's homepage. Part I will finish with a static interface featuring a header, a search bar, and a list of businesses (for the time being, a recurring list of one harcoded business).
 
-    II:     Refactoring existing components using standard unidirectional information flow pattern of React application to establish a foundation for integrating the Yelp API and make data management easier.
+    II - (started 04/25/2023)
+        Refactoring existing components using standard unidirectional information flow pattern of React application to establish a foundation for integrating the Yelp API and make data management easier.
 
-    III:    
+    III -
 
-    IV:     
+
+    IV -
+        
