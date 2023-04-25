@@ -10,6 +10,7 @@
 
 .SortOptions ul {
     display: flex;
+    padding: 0;
     justify-content: center;
     margin-bottom: 2.22rem;
     color: #fff;
